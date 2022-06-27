@@ -106,13 +106,13 @@ async def bot_start(event):
             start_msg = f"**⌔︙ اهلا وسهلا اخوي  {mention} **\
                         \n**⌔︙ {my_mention}'انا البوت المساعد .**\
                         \n**⌔︙ يمكنك التواصل مع صاحب البوت فقط ارسل رسالتك 👤.**\
-                        \n\n**⌔︙ البوت خاص بسورس :** [TELETHON FOR ARABS](https://t.me/X888E)"
+                        \n\n**⌔︙ البوت خاص بسورس :** [TELETHON FOR ARABS](https://t.me/E1GGG)"
         buttons = [
             (
-                Button.url("تنصيب سورسنا", "https://heroku.com/deploy?template=https://github.com/Guevaras1explanations/TelethonArab-"),
+                Button.url("تنصيب سورسنا", "https://heroku.com/deploy?template=https://github.com/mnxs8/Linda"),
                 Button.url(
                     "قناه المساعد",
-                    "https://t.me/E999G",
+                    "https://t.me/E1GGG",
                 ),
             )
         ]
