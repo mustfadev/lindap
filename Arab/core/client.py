@@ -141,7 +141,7 @@ class CatUserBotClient(TelegramClient):
                         text += (
                             "︙"
                         )
-                        text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @IQTHON ** "
+                        text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @E1GGG ** "
                         await check.client.send_message(
                             Config.PRIVATE_GROUP_BOT_API_ID, text, link_preview=False
                         )
@@ -250,7 +250,7 @@ class CatUserBotClient(TelegramClient):
                         text += (
                             "︙"
                         )
-                        text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @IQTHON ** "
+                        text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @E1GGG ** "
                         await check.client.send_message(
                             Config.PRIVATE_GROUP_BOT_API_ID, text, link_preview=False
                         )
