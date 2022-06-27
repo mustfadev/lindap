@@ -69,7 +69,7 @@ vlist = [    "ALIVE_PIC",    "ALIVE_EMOJI",    "ALIVE_TELETHONIQ",    "ALIVE_TEX
 DELETE_TIMEOUT = 5
 thumb_image_path = os.path.join(Config.TMP_DOWNLOAD_DIRECTORY, "thumb_image.jpg")
 oldvars = {    "PM_PIC": "pmpermit_pic",    "PM_TEXT": "pmpermit_txt",    "PM_BLOCK": "pmblock",}
-IQPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/e7b3ea8dc56ac781d756c.mp4"
+IQPIC = gvarstatus("ALIVE_PIC") or "https://c.top4top.io/m_2369ds9ui1.mov"
 def convert_from_bytes(size):
     power = 2 ** 10
     n = 0
@@ -188,7 +188,7 @@ async def amireallyalive(event):
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI_TELETHON = gvarstatus("ALIVE_EMOJI") or " ٍَ 🖤"
-    IQTHON_ALIVE_TEXT = "❬ تـليثون لندا - Telethon-Arabe ، 🕸  ❭ :"
+    IQTHON_ALIVE_TEXT = "❬ تـليثون لندا - Telethon-Linda ، 🕸  ❭ :"
     IQTHON_IMG = gvarstatus("ALIVE_PIC")
     if IQTHON_IMG:
         CAT = [x for x in IQTHON_IMG.split()]
@@ -686,6 +686,7 @@ async def iq(event):
 ———————×———————
 شرح الأوامر : ( @e1ggg ) .
 قناه السورس : ( @egbbb ) .
+تمت برمجه يواسطه المطور مصطفى @v878v
 جميع الاوامر تكون بدايتها نقطة . **""")
 @iqthon.on(admin_cmd(pattern="م9(?: |$)(.*)"))    
 async def iq(event):
