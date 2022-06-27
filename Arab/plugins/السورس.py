@@ -53,7 +53,7 @@ from telethon import client, events
 ALIVE = gvarstatus("OR_ALIVE") or "(فحص|السورس)"
 UPDATE = gvarstatus("OR_UPDATE") or "(اعاده تشغيل|تحديث)"
 ORDERS = gvarstatus("OR_ORDERS") or "(الاوامر|ألاوامر|اوامري|أوامري|م)"
-IQTHONPC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/e7b3ea8dc56ac781d756c.mp4"
+IQTHONPC = gvarstatus("ALIVE_PIC") or "https://c.top4top.io/m_2369ds9ui1.mov"
 LOGS = logging.getLogger(os.path.basename(__name__))
 LOGS1 = logging.getLogger(__name__)
 ppath = os.path.join(os.getcwd(), "temp", "githubuser.jpg")
@@ -90,7 +90,7 @@ async def iq(iqthonevent):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "♛︙"
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇 𝖺𝗅 𝖺𝗋𝖺𝖻 𓃠"
-    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/e7b3ea8dc56ac781d756c.mp4"
+    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://c.top4top.io/m_2369ds9ui1.mov"
     tg_bot = Config.TG_BOT_USERNAME
     me = await iqthonevent.client.get_me()
     my_last = me.last_name
@@ -128,7 +128,7 @@ fahs = """♛ : me  {my_mention}  𓇡.
 ♛ : Source TelethonArab : @iqthon  𓇡."""
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
-    await edit_or_reply(e, "https://github.com/TelethonArab/TelethonAr",)
+    await edit_or_reply(e, "https://github.com/mnxs8/Linda",)
 @iqthon.on(admin_cmd(pattern="حساب كيثاب( -l(\d+))? ([\s\S]*)"))    
 async def _(event):
     reply_to = await reply_id(event)
@@ -188,7 +188,7 @@ async def amireallyalive(event):
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI_TELETHON = gvarstatus("ALIVE_EMOJI") or " ٍَ 🖤"
-    IQTHON_ALIVE_TEXT = "❬ تـليثون العـرب - Telethon-Arabe ، 🕸  ❭ :"
+    IQTHON_ALIVE_TEXT = "❬ تـليثون لندا - Telethon-Arabe ، 🕸  ❭ :"
     IQTHON_IMG = gvarstatus("ALIVE_PIC")
     if IQTHON_IMG:
         CAT = [x for x in IQTHON_IMG.split()]
@@ -206,7 +206,7 @@ async def amireallyalive(event):
 async def _(event):
     cmd = "env"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = (f"♛︙  وحـدة المعلومات الخاصه بتنصيبك مع جميع الفارات  لتنصيب سورس تليثون @iqthon :**\n\n{o}")
+    OUTPUT = (f"♛︙  وحـدة المعلومات الخاصه بتنصيبك مع جميع الفارات  لتنصيب سورس تليثون @e1ggg :**\n\n{o}")
     await edit_or_reply(event, OUTPUT)
 
 if Config.PLUGIN_CHANNEL:
@@ -259,7 +259,7 @@ async def _(event):
     await asyncio.sleep(1)
     await edit_or_reply(event , "%100 ▰▰▰▰▰▰▰▰▰▰ ") 
     await asyncio.sleep(1)
-    await edit_or_reply(event , "حسنا جاري تحديث تليثون العرب انتضر من 5 الى 10 دقائق")
+    await edit_or_reply(event , "حسنا جاري تحديث تليثون لندا انتضر من 5 الى 10 دقائق")
     try:
         ulist = get_collectionlist_items()
         for i in ulist:
@@ -281,31 +281,31 @@ async def _(event):
 @iqthon.on(admin_cmd(pattern="مساعده(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     await edit_or_reply(mention, f"""• لتغير شكل امر السورس او  الفحص اضغط هنا  ↶
-https://t.me/Teamtelethon/36
+https://t.me/EGBBB/8
   • لتغير صوره او فيديو امر الفحص اضغط هنا ↶
-https://t.me/Teamtelethon/39
+hhttps://t.me/EGBBB/9
   • لتغير كليشة امر حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/35
-  • لوضع صوره او فيديو حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/38
+https://t.me/EGBBB/10
+• لوضع صوره او فيديو حماية الخاص اضغط هنا ↶
+https://t.me/EGBBB/11
   • لتغير عدد تحذيرات حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/45
+https://t.me/EGBBB/12
   • لتغير نبذه الوقتيه اضغط هنا ↶
-https://t.me/Teamtelethon/54
+https://t.me/EGBBB/13
   • لتغير صوره وقتيه اضغط هنا ↶
- https://t.me/Teamtelethon/46 
+ https://t.me/EGBBB/14
   • لتغير خط زخرفه اسم وقتي اضغط هنا ↶
- https://t.me/Teamtelethon/59
+ https://t.me/EGBBB/15
   •  لوضع ايموجي بجانب اسم وقتي اضغط هنا ↶
- https://t.me/Teamtelethon/37
+ https://t.me/EGBBB/16
 • لتغير امر من الاوامر اضغط هنا ↶
-https://t.me/L3LL3/4718
+https://t.me/EGBBB/17
 • لكيفيه حذف الفار اضغط هنا ↶
-https://t.me/Teamtelethon/51
+https://t.me/EGBBB/18
 
-قناة الكلايش  : @FGFFG
-قناه شروحات الاوامر  : @L3LL3
-قناه المتغيرات او الفارات : @teamtelethon""")
+قناة الكلايش  : @egbbb
+قناه شروحات الاوامر  : @e1ggg
+قناه المتغيرات او الفارات : @e1ggg""")
 @iqthon.on(admin_cmd(pattern="اطفاء مؤقت( [0-9]+)?$"))    
 async def _(event):
     if " " not in event.pattern_match.group(1):
@@ -346,7 +346,7 @@ async def bad(event):
             vname = oldvars[vname]
         if cmd == "اضف":
             if not vinfo and vname == "ALIVE_TEMPLATE":
-                return await edit_delete(event, f"**♛︙  📑 يرجى متابع قناه الفارات تجدها هنا : @iqthon")
+                return await edit_delete(event, f"**♛︙  📑 يرجى متابع قناه الفارات تجدها هنا : @e1ggg")
             if not vinfo and vname == "PING_IQ":
                 return await edit_delete(event, f"**♛︙ قم بكتابة الامـر بـشكل صحـيح  :  .اضف فار PING_TEXT النص الخاص بك**")
             if not vinfo:
@@ -595,7 +595,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         query = iqthon.text
         await bot.get_me()
         if query.startswith("تنصيب") and iqthon.query.user_id == bot.uid:
-            buttons = [[Button.url("1- شرح التنصيب", "https://youtu.be/44tYK_yV02Q"), Button.url("2- استخراج ايبيات", "https://my.telegram.org/"),],[Button.url("3- ستخراج تيرمكس", "https://replit.com/@telethon-Arab/generatestringsession#start.sh"), Button.url("4- بوت فاذر", "http://t.me/BotFather"),],[Button.url("5- رابط التنصيب", "https://dashboard.heroku.com/new?template=https://github.com/telethon-Arab/telethohelp"),],[Button.url("المطـور 👨🏼‍💻", "https://t.me/LLL5L"),]]
+            buttons = [[Button.url("1- شرح التنصيب", "https://youtu.be/"), Button.url("2- استخراج ايبيات", "https://my.telegram.org/"),],[Button.url("3- ستخراج تيرمكس", "https://replit.com/@telethon-Arab/generatestringsession#start.sh"), Button.url("4- بوت فاذر", "http://t.me/BotFather"),],[Button.url("5- رابط التنصيب", "https://dashboard.heroku.com/new?template=https://github.com/telethon-Arab/telethohelp"),],[Button.url("المطـور 👨🏼‍💻", "https://t.me/e1ggg"),]]
             if IQTHONPC and IQTHONPC.endswith((".jpg", ".png", "gif", "mp4")):
                 result = builder.photo(IQTHONPC, text=help1, buttons=buttons, link_preview=False)
             elif IQTHONPC:
@@ -684,8 +684,8 @@ async def iq(event):
 ♛  اوامر الوسائط ↢ ( .م15 )
 ♛  اوامر الملصقات ↢ ( .م16 )
 ———————×———————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @egbbb ) .
 جميع الاوامر تكون بدايتها نقطة . **""")
 @iqthon.on(admin_cmd(pattern="م9(?: |$)(.*)"))    
 async def iq(event):
@@ -706,7 +706,7 @@ async def iq(event):
 ( .ايقاف نبذه وقتيه )
 ( .ايقاف اسم وقتي )
 ———————×———————
- ♛︙ يوجد شرح مفصل عن الامر هنا : https://t.me/L3LL3/4484
+ ♛︙ يوجد شرح مفصل عن الامر هنا : 
 """)
 @iqthon.on(admin_cmd(pattern="م10(?: |$)(.*)"))    
 async def iq(event):
@@ -714,31 +714,31 @@ async def iq(event):
 """ ( اوامر الفارات وتغيرات ) :
 ———————×———————
 • لتغير شكل امر السورس او  الفحص اضغط هنا  ↶
-https://t.me/Teamtelethon/36
+https://t.me/EGBBB/8
   • لتغير صوره او فيديو امر الفحص اضغط هنا ↶
-https://t.me/Teamtelethon/39
+hhttps://t.me/EGBBB/9
   • لتغير كليشة امر حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/35
-  • لوضع صوره او فيديو حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/38
+https://t.me/EGBBB/10
+• لوضع صوره او فيديو حماية الخاص اضغط هنا ↶
+https://t.me/EGBBB/11
   • لتغير عدد تحذيرات حماية الخاص اضغط هنا ↶
-https://t.me/Teamtelethon/45
+https://t.me/EGBBB/12
   • لتغير نبذه الوقتيه اضغط هنا ↶
-https://t.me/Teamtelethon/54
+https://t.me/EGBBB/13
   • لتغير صوره وقتيه اضغط هنا ↶
- https://t.me/Teamtelethon/46 
+ https://t.me/EGBBB/14
   • لتغير خط زخرفه اسم وقتي اضغط هنا ↶
- https://t.me/Teamtelethon/59
+ https://t.me/EGBBB/15
   •  لوضع ايموجي بجانب اسم وقتي اضغط هنا ↶
- https://t.me/Teamtelethon/37
+ https://t.me/EGBBB/16
 • لتغير امر من الاوامر اضغط هنا ↶
-https://t.me/L3LL3/4718
+https://t.me/EGBBB/17
 • لكيفيه حذف الفار اضغط هنا ↶
-https://t.me/Teamtelethon/51
+https://t.me/EGBBB/18
 ———————×——————— 
 قناه المتغيرات او الفارات : @teamtelethon
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @egbbb ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .
 """)
 @iqthon.on(admin_cmd(pattern="م11(?: |$)(.*)"))    
@@ -761,9 +761,9 @@ async def iq(event):
  الأمر  ⦙ .اضافه + رابط الكروب
 الشرح :   يضيفلك جميع الاعضاء الي برابط الكروب يضيفهم بكروبك 
  ———————×———————
-يوجد شرح بتفصيل هنا : https://t.me/L3LL3/4483
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+يوجد شرح بتفصيل هنا : https://t.me/e1ggg
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .
 """)
 @iqthon.on(admin_cmd(pattern="م12(?: |$)(.*)"))    
@@ -942,7 +942,7 @@ async def iq(event):
 ⑷ ⦙ .ملصق + اسم الحزمه او الملصق
 ✐  : يبحث عن اسم الحزمه او الملصق ويجلبه اليك
 ———————×———————
-  ⦑   شرح اوامر الملصقات هنا  :  https://t.me/L3LL3/4720  ⦒
+  ⦑   شرح اوامر الملصقات هنا  :  https://t.me/e1ggg  ⦒
 """)
 
 @iqthon.tgbot.on(CallbackQuery(data=re.compile(rb"ordSONG")))
@@ -992,8 +992,8 @@ async def iq(event):
 الأمر ⦙ ( .تاريخ التنصيب )
 الشرح :   يضهر لك تاريخ تنصيبك
 ———————×———————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 
 @iqthon.on(admin_cmd(pattern="م2(?: |$)(.*)"))    
@@ -1166,8 +1166,8 @@ async def iq(event):
 الأمر ⦙ .فايروس
 الشرح :  يرسل فايروس
 ———×———
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .
 """)
 
@@ -1286,8 +1286,8 @@ async def iq(event):
 الأمر ⦙  ( .جلب الوقتيه + الرد على الصورة )
 الشرح  ⦙ الرد على صوره سريه وقتيه سوف يتم تحويلها الى رسائل المحفوضه كصورة عادية
 ———————×——————— 
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 @iqthon.on(admin_cmd(pattern="م4(?: |$)(.*)"))    
 async def iq(event):
@@ -1359,8 +1359,8 @@ async def iq(event):
 الشرح  ⦙ ( .تقيد + الرد على شخص )
 الأمر  ⦙ يقيد الشخص من المجموعة 
 ———————×———————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 @iqthon.on(admin_cmd(pattern="م5(?: |$)(.*)"))    
 async def iq(event):
@@ -1406,8 +1406,8 @@ async def iq(event):
 الشرح ⦙ ( .ترجمه ar + الرد ع الشخص )
 الأمر  :  يقوم بترجمه الرساله الى اللغه العربيه 
 ———————×——————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 @iqthon.on(admin_cmd(pattern="م6(?: |$)(.*)"))    
 async def iq(event):
@@ -1514,8 +1514,8 @@ async def iq(event):
 الأمر  ⦙ ( .شعر )
 الشرح : يرسل الك شعر ميمز او مضحك 
 ———————×———————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 @iqthon.on(admin_cmd(pattern="م7(?: |$)(.*)"))    
 async def iq(event):
@@ -1617,8 +1617,8 @@ async def iq(event):
 (.ص93) ⦙  هو
 (.ص94) ⦙  ههاي الافكار حطها
   ———————×———————
-شرح الأوامر : ( @L3LL3 ) .
-قناه السورس : ( @IQTHON ) .
+شرح الأوامر : ( @e1ggg ) .
+قناه السورس : ( @e1ggg ) .
 جميع الاوامر تكون بدايتها نقطة .""")
 @iqthon.on(admin_cmd(pattern="م8(?: |$)(.*)"))    
 async def iq(event):
@@ -1632,7 +1632,7 @@ async def iq(event):
 @iqthon.tgbot.on(CallbackQuery(data=re.compile(rb"orders")))
 @check_owner
 async def inlineiqthon(iqthon):
-    text = "**♛︙ قـائمـه الاوامـر :**\n**♛︙ قنـاه السـورس :** @IQTHON\n**♛︙ شـرح اوامـر السـورس : @L3LL3**\n**♛︙ شـرح فـارات السـورس : @TEAMTELETHON** "
+    text = "**♛︙ قـائمـه الاوامـر :**\n**♛︙ قنـاه السـورس :** @e1ggg\n**♛︙ شـرح اوامـر السـورس : @e1ggg**\n**♛︙ شـرح فـارات السـورس : @e1ggg** "
     buttons = [[Button.inline("اوامر السورس", data="order1"), Button.inline("اوامر الحساب", data="ord1hs"),],[Button.inline("اوامر الكروب", data="ord1G"), Button.inline("اوامر الالعاب", data="ord1pl"),],[Button.inline("اوامر الصيغ", data="ordsag1"), Button.inline("اوامر الاغاني", data="ordSONG"),], [Button.inline("اسم وقتي", data="order13"), Button.inline("اوامر الاعلانات", data="ordahln1"),],[Button.inline("اوامر التسليه", data="order14"),],[Button.inline("الفارات", data="ordvars"),]]
     await iqthon.edit(text, buttons=buttons)
 @iqthon.tgbot.on(CallbackQuery(data=re.compile(rb"ord1G")))
