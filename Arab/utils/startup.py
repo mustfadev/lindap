@@ -15,7 +15,7 @@ from ..sql_helper.global_collection import del_keyword_collectionlist, get_item_
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .klanr import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("تليثون العرب \n ")
+LOGS = logging.getLogger("تليثون لندا \n ")
 cmdhr = Config.COMMAND_HAND_LER
 async def load_plugins(folder):
     path = f"Arab/{folder}/*.py"
@@ -46,7 +46,7 @@ async def load_plugins(folder):
 async def startupmessage():
     try:
         if BOTLOG:
-            Config.CATUBLOGO = await iqthon.tgbot.send_file(BOTLOG_CHATID, "https://telegra.ph/file/e7b3ea8dc56ac781d756c.mp4", caption="♛ ⦙ تـمّ  اعـادة تشـغيل\n تليثـون العـرب ✓  :  [ 7.6 ] .\n\n♛ ⦙ للحصول على اوامر السورس\n أرسـل : (  `.اوامري`  ) \n\n♛ ⦙ لمـعرفة كيفية تغير بعض كلايش\n او صور السـورس  أرسـل  :\n (  `.مساعده`  )\n\n♛ ⦙ القناة الرسمية تليثون العرب : @IQTHON\n♛ ⦙ فارات سورس تليثون  :@TEAMTELETHON \n♛ ⦙ كلايش تليثون :  @FGFFG\n ♛ ⦙التحديثات والاضافات :  @M4_STORY\n",                buttons=[(Button.url("مطور تليثون الرسمي", "https://t.me/lll5l"),)],            )
+            Config.CATUBLOGO = await iqthon.tgbot.send_file(BOTLOG_CHATID, "https://c.top4top.io/m_2369ds9ui1.mov", caption="♛ ⦙ تـمّ  اعـادة تشـغيل\n تليثـون لندا ✓  :  [ 7.6 ] .\n\n♛ ⦙ للحصول على اوامر السورس\n أرسـل : (  `.اوامري`  ) \n\n♛ ⦙ لمـعرفة كيفية تغير بعض كلايش\n او صور السـورس  أرسـل  :\n (  `.مساعده`  )\n\n♛ ⦙ القناة الرسمية تليثون لندا بواسطه المطور مصطفى : @e1ggg\n♛ ⦙ فارات سورس تليثون  :@e1ggg \n♛ ⦙ كلايش تليثون :  @e1ggg\n ♛ ⦙ التحديثات والاضافات :  @e1ggg\n",                buttons=[(Button.url("مطور تليثون الرسمي", "https://t.me/v878v"),)],            )
     except Exception as e:
         LOGS.error(e)
         return None
